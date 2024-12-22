@@ -94,7 +94,7 @@ const Navbar = () => {
                                     bg-richblack-5 translate-x-[93%] translate-y-[-40%]'></div>
 
                                     {
-                                        subLinks.length? (
+                                        subLinks?.length? (
 
                                             subLinks.map((subLink, index) => (
                                                 <NavLink to={`/catalog/${subLink.name.toLowerCase()}`} key={index} className={`w-full 
